@@ -6,6 +6,10 @@
   "bin": {
     "etherpad-lite": "checkAllPads.js"
   },
+  "engines": {
+    "node": "12.x",
+    "npm": "6.11.3"
+  },
   "directories": {
     "doc": "doc",
     "test": "tests"
