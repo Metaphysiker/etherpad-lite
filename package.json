@@ -1,0 +1,31 @@
+{
+  "name": "etherpad-lite",
+  "version": "1.0.0",
+  "description": "<a href=\"https://hub.docker.com/r/etherpad/etherpad\"><img alt=\"Docker Pulls\" src=\"https://img.shields.io/docker/pulls/etherpad/etherpad\"></a>",
+  "main": "index.js",
+  "bin": {
+    "etherpad-lite": "checkAllPads.js"
+  },
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "dependencies": {
+    "ep_etherpad-lite": "^1.8.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ether/etherpad-lite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ether/etherpad-lite/issues"
+  },
+  "homepage": "https://github.com/ether/etherpad-lite#readme"
+}
